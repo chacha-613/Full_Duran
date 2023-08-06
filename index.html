@@ -1,102 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<title>Grid Loading and Hover Effect | Demo 1</title>
-		<meta name="description" content="Grid Loading and Hover Effect: Recreating Samsung's grid loading effect" />
-		<meta name="keywords" content="grid loading, swipe, effect, slide, masonry, web design, tutorial" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<script src="js/modernizr.custom.js"></script>
-	</head>
-	<body>
-		<div class="container">
-			<!-- Top Navigation -->
-			<div class="codrops-top clearfix">
-				<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/ButtonComponentMorph/"><span>Previous Demo</span></a>
-				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=19069"><span>Back to the Codrops Article</span></a></span>
-			</div>
-			<header class="codrops-header">
-				<h1>Grid Loading and Hover Effect <span>Recreating <a href="http://design.samsung.com/">Samsung's</a> grid loading effect</span></h1>	
-				<nav class="codrops-demos">
-					<a class="current-demo" href="index.html">Swipe right</a>
-					<a href="index2.html">Swipe Down</a>
-					<a href="index3.html">Rotate</a>
-				</nav>
-			</header>
-			<section class="grid-wrap">
-				<ul class="grid swipe-right" id="grid">
-					<li class="title-box">
-						<h2>Illustrations by <a href="http://ryotakemasa.com/">Ryo Takemasa</a></h2>
-					</li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-				</ul>
-			</section>
-			<section class="related">
-				<p>If you enjoyed this demo you might also like:</p>
-				<a href="http://tympanus.net/Development/ThumbnailGridAnimations/">
-					<img src="http://tympanus.net/codrops/wp-content/uploads/2013/10/ThumbnailGridAnimations1-300x162.jpg" />
-					<h3>Animations for Thumbnail Grids</h3>
-				</a>
-				<a href="http://tympanus.net/Development/GridLoadingEffects/">
-					<img src="http://tympanus.net/codrops/wp-content/uploads/2013/07/GridLoadingEffects-300x162.png" />
-					<h3>Grid Loading Effects</h3>
-				</a>
-			</section>
-		</div><!-- /container -->
-		<script src="js/masonry.pkgd.min.js"></script>
-		<script src="js/imagesloaded.pkgd.min.js"></script>
-		<script src="js/classie.js"></script>
-		<script src="js/colorfinder-1.1.js"></script>
-		<script src="js/gridScrollFx.js"></script>
-		<script>
-			new GridScrollFx( document.getElementById( 'grid' ), {
-				viewportFactor : 0.4
-			} );
-		</script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Duran's Full Video</title>
+    <meta name="description" content="듀란의 다시보기 영상 요약" />
+    <meta
+      name="keywords"
+      content="grid loading, swipe, effect, slide, masonry, web design, tutorial"
+    />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="codrops-top clearfix">
+        <span class="right"
+          ><a href="https://chacha-613.github.io/HBD_DURAN/"
+            ><span>Back to the Site</span></a
+          ></span
+        >
+      </div>
+      <header class="codrops-header">
+        <h1>
+          FULL VIDEO
+          <span>듀란의 다시보기 요약👀</span>
+        </h1>
+      </header>
+      <section class="grid-wrap">
+        <ul class="grid swipe-down" id="grid">
+          <li class="title-box">
+            <h2>
+              <a href="https://www.youtube.com/@user-mm2ic5yr2h/videos"
+                >다시보기 채널➡️</a
+              ><span>이미지 클릭: 해당 영상으로 이동</span>
+            </h2>
+          </li>
+
+          <li>
+            <a href="#"
+              ><img src="img/dummy.png" alt="dummy" />
+              <h3>A fantastic title</h3></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="img/dummy.png" alt="dummy" />
+              <h3>A fantastic title</h3></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="img/dummy.png" alt="dummy" />
+              <h3>A fantastic title</h3></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="img/dummy.png" alt="dummy" />
+              <h3>A fantastic title</h3></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="img/dummy.png" alt="dummy" />
+              <h3>A fantastic title</h3></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="img/dummy.png" alt="dummy" />
+              <h3>A fantastic title</h3></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="img/dummy.png" alt="dummy" />
+              <h3>A fantastic title</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=ekXv7cXIUns"
+              ><img src="img/031.png" alt="dummy" />
+              <h3>230330 3부</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=Oi1DmT8Dwbs"
+              ><img src="img/030.png" alt="dummy" />
+              <h3>230329</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=1KWJqzoJGIU"
+              ><img src="img/029.png" alt="dummy" />
+              <h3>230325</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=RglZAQeGYhg"
+              ><img src="img/028.png" alt="dummy" />
+              <h3>230322 리방전</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=_fZ3NaJvhtQ"
+              ><img src="img/027.png" alt="dummy" />
+              <h3>230319</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=Lh0nRB4SFQ0"
+              ><img src="img/026.png" alt="dummy" />
+              <h3>230318</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=VuOuZ9Ojj4g"
+              ><img src="img/025.png" alt="dummy" />
+              <h3>230316</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://youtu.be/5MRtBgZMKEA"
+              ><img src="img/024.png" alt="dummy" />
+              <h3>230304</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=iPQMmzpXHCY"
+              ><img src="img/023.png" alt="dummy" />
+              <h3>230303 2부</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=XJMs5_3tI4U"
+              ><img src="img/022.png" alt="dummy" />
+              <h3>230226 2부</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=bwHIWK6B9hc"
+              ><img src="img/021.png" alt="dummy" />
+              <h3>230226 1부</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://youtu.be/0GtJFhRcPBc"
+              ><img src="img/020.png" alt="dummy" />
+              <h3>230223</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://youtu.be/bPtFUHchYQM"
+              ><img src="img/019.png" alt="dummy" />
+              <h3>230222</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=VY9oGGDtwdI"
+              ><img src="img/018.png" alt="dummy" />
+              <h3>230217</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=tDed1FxzOzE"
+              ><img src="img/017.png" alt="dummy" />
+              <h3>230216</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=CNNaDQdgVxs"
+              ><img src="img/016.png" alt="dummy" />
+              <h3>230215</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=7Aticjw7Jns"
+              ><img src="img/015.png" alt="dummy" />
+              <h3>230211 전</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=oXUmWI23O8c"
+              ><img src="img/014.png" alt="dummy" />
+              <h3>230209 리방후</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=JFOZo0cDDwQ"
+              ><img src="img/013.png" alt="dummy" />
+              <h3>230208 2부</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=MoR2D-KF98k"
+              ><img src="img/012.png" alt="dummy" />
+              <h3>230207</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=XQdCpO1UGzk"
+              ><img src="img/011.png" alt="dummy" />
+              <h3>230205</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=K-iBTYytVAk"
+              ><img src="img/010.png" alt="dummy" />
+              <h3>230125 2부</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=xgIbRdK7Ues"
+              ><img src="img/009.png" alt="dummy" />
+              <h3>230122 2부</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=Ay_-UUwSKgY"
+              ><img src="img/008.png" alt="dummy" />
+              <h3>230118</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=xUnUYD2EN9I"
+              ><img src="img/007.png" alt="dummy" />
+              <h3>230117</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=PHSfVehLp9c"
+              ><img src="img/006.png" alt="dummy" />
+              <h3>230115</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=rXzuj5klE4I"
+              ><img src="img/005.png" alt="dummy" />
+              <h3>230114 2부</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=2lwA_khbk1E"
+              ><img src="img/004.png" alt="dummy" />
+              <h3>230112</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=arUflQV8dF8"
+              ><img src="img/003.png" alt="dummy" />
+              <h3>230111</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=QFeS_Onkv8w"
+              ><img src="img/002.png" alt="dummy" />
+              <h3>230108 2부</h3></a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=GmMg115__vk"
+              ><img src="img/001.png" alt="230104" />
+              <h3>230104 2부</h3></a
+            >
+          </li>
+        </ul>
+      </section>
+    </div>
+    <!-- /container -->
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/colorfinder-1.1.js"></script>
+    <script src="js/gridScrollFx.js"></script>
+    <script>
+      new GridScrollFx(document.getElementById("grid"), {
+        viewportFactor: 0.4,
+      });
+    </script>
+  </body>
 </html>
