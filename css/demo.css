@@ -47,6 +47,14 @@ a:focus {
   color: #2e3444;
 }
 
+.go-to-site {
+  font-size: 22px; /* 원하는 폰트 크기로 조정 */
+}
+
+.go-to-top {
+  font-size: 22px; /* 원하는 폰트 크기로 조정 */
+}
+
 .codrops-header {
   margin: 0 auto;
   padding: 2em;

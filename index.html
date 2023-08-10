@@ -22,7 +22,7 @@
       <div class="codrops-top clearfix">
         <span class="right"
           ><a href="https://chacha-613.github.io/HBD_DURAN/"
-            ><span>Back to the Site</span></a
+            ><span class="go-to-site">Back to the Main➰</span></a
           ></span
         >
       </div>
@@ -411,6 +411,13 @@
           </li>
         </ul>
       </section>
+      <div class="codrops-top clearfix">
+        <span class="right">
+          <a href="javascript:void(0);" class="go-to-top">
+            <span>To the Top☝️</span>
+          </a>
+        </span>
+      </div>
     </div>
     <!-- /container -->
     <script src="js/masonry.pkgd.min.js"></script>
@@ -418,6 +425,20 @@
     <script src="js/classie.js"></script>
     <script src="js/colorfinder-1.1.js"></script>
     <script src="js/gridScrollFx.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const goToTopLink = document.querySelector(".go-to-top");
+
+        goToTopLink.addEventListener("click", function (event) {
+          event.preventDefault();
+
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
     <script>
       new GridScrollFx(document.getElementById("grid"), {
         viewportFactor: 0.4,
